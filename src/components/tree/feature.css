@@ -1,0 +1,25 @@
+.feature {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 30px;
+}
+
+.feature.selected {
+  background-color: #E0FFFF;
+}
+
+.feature:hover {
+  background-color: #F0FFFF;
+}
+
+.feature-icon {
+  margin-left: 30px;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.feature-title.filtered {
+  font-weight: 600;
+}

@@ -1,0 +1,13 @@
+.app {
+  padding: 20px;
+}
+
+.app-body {
+  display: flex;
+}
+
+.app-left-part {
+  margin-right: 20px;
+  width: 600px;
+}
+

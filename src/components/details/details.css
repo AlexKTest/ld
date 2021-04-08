@@ -1,0 +1,10 @@
+.detail {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.detail-gherkin {
+  color: "#3182AC";
+  margin-right: 5px;
+  font-weight: 600;
+}
