@@ -36,7 +36,7 @@ export const Folder: FC<FolderProps> = ({
           className={cn("folder-arrow-icon", { expanded })}
         />
         <img src={FolderIcon} className="folder-icon" />
-        <div className={cn("folder-title", {filtered })}>{title}</div>
+        <div className={cn("folder-title", {filtered })} data-cu="folder-title">{title}</div>
       </div>
       {expanded && (
         <div className="folder-content">

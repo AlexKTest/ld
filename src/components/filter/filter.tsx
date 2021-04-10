@@ -20,8 +20,9 @@ export const Filter: FC<FilterProps> = ({ filter, setFilter }) => {
         value={filter}
         onChange={(e) => setFilter(e.target.value)}
         placeholder='Filter by keyword'
+        data-cu="filter-input"
       />
-      <img src={CloseIcon} className='close-icon' onClick={() => setFilter('')}/>
+      <img src={CloseIcon} className='clear-icon' onClick={() => setFilter('')} data-cu="clear-icon"/>
     </div>
   );
 };
